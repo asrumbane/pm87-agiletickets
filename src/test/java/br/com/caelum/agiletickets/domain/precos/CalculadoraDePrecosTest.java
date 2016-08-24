@@ -177,7 +177,7 @@ public class CalculadoraDePrecosTest {
 
 		BigDecimal precoTotal = CalculadoraDePrecos.calcula(sessao, 1);
 		
-		assertEquals(0, BigDecimal.valueOf(1300.0).compareTo(precoTotal));
+		assertEquals(1, BigDecimal.valueOf(1300.0).compareTo(precoTotal));
 	}
 	
 	@Test
